@@ -1,3 +1,7 @@
+## Forked from
+
+This repository was created based on the [cs2-modded-server](https://github.com/kus/cs2-modded-server) and only add skins to the mods
+
 # Counter-Strike 2 (CS2) Modded Dedicated Server
 
 If you are looking for the CS:GO version you can still access that [here](https://github.com/kus/csgo-modded-server/tree/csgo).
@@ -76,38 +80,38 @@ Getting up and running:
 
 ## Mods installed
 
-Mod | Version | Why
---- | --- | ---
-[Metamod:Source](https://www.metamodsource.net/downloads.php?branch=dev) | `2.0.0-1319` | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `303` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
-[CS2Fixes](https://github.com/Source2ZE/CS2Fixes) | `1.10.4` | A Metamod plugin with fixes and features
-[MultiAddonManager](https://github.com/Source2ZE/MultiAddonManager) | `1.3.3` | Allows you to use multiple workshop addons at once and have clients download them
-[ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.104102024` | Fixes players not showing up in the server browser
-[CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
-[CS2 Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
-[CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo) | `2.3.4` | Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.
-[GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.50` | A simple Counter-Strike 2 server plugin that helps admins manage game modes and map groups.
-[Rock The Vote](https://github.com/abnerfs/cs2-rockthevote)| `1.8.5` | General purpose cs2 map voting plugin, made with love from scratch
-[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.8.8` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
-[MapConfigurator](https://github.com/ManifestManah/MapConfigurator)| `1.0.2` | Allows you to quick and easily create unique configuration files for each map on your server.
-[SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/)| `0.1.2` | Adds basic administrator functions
-[CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)| `1.2.0` | This is a rudimentary implementation of a RCON plugin for CS2 using CounterStrikeSharp as RCON does not work whilst connected to the server
-[SharpTimer](https://github.com/DEAFPS/SharpTimer/)| `0.2.5` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
-[GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.2` | GunGame mode on Counter Strike Sharp
-[K4-Arenas](https://github.com/KitsuneLab-Development/K4-Arenas)| `1.5.4` | All in one arena plugin, that you can use to have a ladder type gameplay. Support all map, 2v2/3v3/etc
-[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `20.0.16` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
-[CS2 Retakes Shared](https://github.com/B3none/cs2-retakes)| `20.0.16` | Shared library for CS2 Retakes.
-[CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `2.0.0` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
-[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.4.0` | Advanced weapon allocation for B3none/cs2-retakes
-[CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
-[CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.6` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
-[CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.8` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
-[CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)| `1.2.5` | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)
-[OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)| `0.1.46` | Multiple prefire practices on competitive maps and support multiplayer practicing simultaneously.
-[CS2-CustomVotes](https://github.com/imi-tat0r/CS2-CustomVotes)| `1.1.3` | A plugin for Counter-Strike 2 to create custom votes for settings.
-[deathrun-manager](https://github.com/leoskiline/cs2-deathrun-manager)| `0.0.9` | Deathrun Manager for CounterStrikeSharp Framework CS2.
-[AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.5` | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
-[CS2FunMatchPlugin](https://github.com/TitaniumLithium/CS2FunMatchPlugin) | `1.1.1` | Random fun mode every round
+| Mod                                                                              | Version         | Why                                                                                                                                                                                     |
+| -------------------------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Metamod:Source](https://www.metamodsource.net/downloads.php?branch=dev)         | `2.0.0-1318`    | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between                                                                                           |
+| [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)           | `300`           | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#) |
+| [CS2Fixes](https://github.com/Source2ZE/CS2Fixes)                                | `1.10.3`        | A Metamod plugin with fixes and features                                                                                                                                                |
+| [MultiAddonManager](https://github.com/Source2ZE/MultiAddonManager)              | `1.3.3`         | Allows you to use multiple workshop addons at once and have clients download them                                                                                                       |
+| [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix)        | `1.0.104102024` | Fixes players not showing up in the server browser                                                                                                                                      |
+| [CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter)                            | `1.0.0`         | Executes a command after server event (i.e. OnMapStart) or a delay.                                                                                                                     |
+| [CS2 Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons)          | `1.0.1`         | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.                                                                                                    |
+| [CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo)       | `2.3.4`         | Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.                                                             |
+| [GameModeManager](https://github.com/nickj609/GameModeManager)                   | `1.0.50`        | A simple Counter-Strike 2 server plugin that helps admins manage game modes and map groups.                                                                                             |
+| [Rock The Vote](https://github.com/abnerfs/cs2-rockthevote)                      | `1.8.5`         | General purpose cs2 map voting plugin, made with love from scratch                                                                                                                      |
+| [MatchZy](https://github.com/shobhit-pathak/MatchZy)                             | `0.8.8`         | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!                                                                              |
+| [MapConfigurator](https://github.com/ManifestManah/MapConfigurator)              | `1.0.2`         | Allows you to quick and easily create unique configuration files for each map on your server.                                                                                           |
+| [SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/)                        | `0.1.2`         | Adds basic administrator functions                                                                                                                                                      |
+| [CS2Rcon](https://github.com/LordFetznschaedl/CS2Rcon)                           | `1.2.0`         | This is a rudimentary implementation of a RCON plugin for CS2 using CounterStrikeSharp as RCON does not work whilst connected to the server                                             |
+| [SharpTimer](https://github.com/DEAFPS/SharpTimer/)                              | `0.2.5`         | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin                                                                                                                    |
+| [GunGame](https://github.com/ssypchenko/cs2-gungame)                             | `1.1.2`         | GunGame mode on Counter Strike Sharp                                                                                                                                                    |
+| [K4-Arenas](https://github.com/KitsuneLab-Development/K4-Arenas)                 | `1.5.4`         | All in one arena plugin, that you can use to have a ladder type gameplay. Support all map, 2v2/3v3/etc                                                                                  |
+| [CS2 Retakes](https://github.com/B3none/cs2-retakes)                             | `20.0.16`       | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.                                                                                                               |
+| [CS2 Retakes Shared](https://github.com/B3none/cs2-retakes)                      | `20.0.16`       | Shared library for CS2 Retakes.                                                                                                                                                         |
+| [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)                     | `2.0.0`         | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.                                                                        |
+| [CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)     | `2.4.0`         | Advanced weapon allocation for B3none/cs2-retakes                                                                                                                                       |
+| [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)                   | `1.0.0`         | Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)                                       |
+| [CS2 Executes](https://github.com/zwolof/cs2-executes)                           | `1.0.6`         | CS2 implementation of executes. Based on the version for CS:GO by Splewis.                                                                                                              |
+| [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)           | `1.0.8`         | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)                                                                                                             |
+| [CS2 Deathmatch](https://github.com/NockyCZ/CS2-Deathmatch)                      | `1.2.3`         | Custom Deathmatch CS2 plugin (Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc)                                                                              |
+| [OpenPrefirePrac](https://github.com/lengran/OpenPrefirePrac)                    | `0.1.45`        | Multiple prefire practices on competitive maps and support multiplayer practicing simultaneously.                                                                                       |
+| [CS2-CustomVotes](https://github.com/imi-tat0r/CS2-CustomVotes)                  | `1.1.3`         | A plugin for Counter-Strike 2 to create custom votes for settings.                                                                                                                      |
+| [deathrun-manager](https://github.com/leoskiline/cs2-deathrun-manager)           | `0.0.8`         | Deathrun Manager for CounterStrikeSharp Framework CS2.                                                                                                                                  |
+| [AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.5`           | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.                                                                                                          |
+| [CS2FunMatchPlugin](https://github.com/TitaniumLithium/CS2FunMatchPlugin)        | `1.1.1`         | Random fun mode every round                                                                                                                                                             |
 
 ## Share the love
 
@@ -127,8 +131,7 @@ Subscribe to release notifications and stay up to date with the latest features 
 > Any reference to a path is always the root of the installation. Which on Linux will typically be `/home/steam/cs2/` and on Windows where ever you extracted the zip.
 >
 > For example on Linux:
-> `/custom_files/addons/counterstrikesharp/configs/admins.json` full path is `/home/steam/cs2/custom_files/addons/counterstrikesharp/configs/admins.json`
-> `/game/csgo/addons/counterstrikesharp/configs/admins.json` full path is `/home/steam/cs2/game/csgo/addons/counterstrikesharp/configs/admins.json`
+> `/custom_files/addons/counterstrikesharp/configs/admins.json` full path is `/home/steam/cs2/custom_files/addons/counterstrikesharp/configs/admins.json` > `/game/csgo/addons/counterstrikesharp/configs/admins.json` full path is `/home/steam/cs2/game/csgo/addons/counterstrikesharp/configs/admins.json`
 
 Any changes you have made to the files in this mod will be overwritten when the update scripts are ran. I have created a folder `/custom_files/` in the root of the project, where you mirror the contents of the `csgo/` folder, and any files you want to tweak, you put in there in the same spot and they will always overwrite the mods default files.
 
@@ -168,23 +171,23 @@ See all available [environment variables](#environment-variables).
 
 ### Available via environment variable only
 
-*On Windows set these in `win.ini`.*
+_On Windows set these in `win.ini`._
 
-Key | Default value | What is it
---- | --- | ---
-`API_KEY` | `changeme` | To download maps from the workshop, your server needs access to the steam web api. To allow this you'll need an authorization key which you can generate [here](http://steamcommunity.com/dev/apikey)
-`IP` | `` | Not required. Allows the server IP to be set. Useful if a CS2 server needs to be bound to a specific IP address.
-`PORT` | `27015` | Server port
-`TICKRATE` | `128` | Server tickrate MM is 64, Faceit is 128
-`MAXPLAYERS` | `32` | Max player limit
-`CUSTOM_FOLDER` | `custom_files` | Folder of your own modifications to the mod that mirror the csgo/ structure and overwrite the mode files. More on that [here](#custom-files)
-`RCON_PASSWORD` | `changeme` | RCON password to control server from console also remotely configure
-`STEAM_ACCOUNT` | `` | To host a server online, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers). Your server will not run online without this
-`SERVER_PASSWORD` | `` | If you want a password protected server
-`LAN` | `0` | If the server is a LAN only server
-`EXEC` | `on_boot.cfg` | Config file to run when server boots. If switching gamemode, it's recommended to do a delay see the example `on_boot.cfg` file
-`DUCK_DOMAIN` | `` | (Linux only) [Duck DNS](https://www.duckdns.org/) domain if you want to utalise the free service to get a domain for your server instead of IP
-`DUCK_TOKEN` | `` | (Linux only) [Duck DNS](https://www.duckdns.org/) access token to update domain when server boots
+| Key               | Default value  | What is it                                                                                                                                                                                            |
+| ----------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `API_KEY`         | `changeme`     | To download maps from the workshop, your server needs access to the steam web api. To allow this you'll need an authorization key which you can generate [here](http://steamcommunity.com/dev/apikey) |
+| `IP`              | ``             | Not required. Allows the server IP to be set. Useful if a CS2 server needs to be bound to a specific IP address.                                                                                      |
+| `PORT`            | `27015`        | Server port                                                                                                                                                                                           |
+| `TICKRATE`        | `128`          | Server tickrate MM is 64, Faceit is 128                                                                                                                                                               |
+| `MAXPLAYERS`      | `32`           | Max player limit                                                                                                                                                                                      |
+| `CUSTOM_FOLDER`   | `custom_files` | Folder of your own modifications to the mod that mirror the csgo/ structure and overwrite the mode files. More on that [here](#custom-files)                                                          |
+| `RCON_PASSWORD`   | `changeme`     | RCON password to control server from console also remotely configure                                                                                                                                  |
+| `STEAM_ACCOUNT`   | ``             | To host a server online, you need to create a Steam [Game Login Token](https://steamcommunity.com/dev/managegameservers). Your server will not run online without this                                |
+| `SERVER_PASSWORD` | ``             | If you want a password protected server                                                                                                                                                               |
+| `LAN`             | `0`            | If the server is a LAN only server                                                                                                                                                                    |
+| `EXEC`            | `on_boot.cfg`  | Config file to run when server boots. If switching gamemode, it's recommended to do a delay see the example `on_boot.cfg` file                                                                        |
+| `DUCK_DOMAIN`     | ``             | (Linux only) [Duck DNS](https://www.duckdns.org/) domain if you want to utalise the free service to get a domain for your server instead of IP                                                        |
+| `DUCK_TOKEN`      | ``             | (Linux only) [Duck DNS](https://www.duckdns.org/) access token to update domain when server boots                                                                                                     |
 
 ## Playing workshop maps/collections
 
@@ -201,6 +204,7 @@ Copy the file `/game/csgo/gamemodes_server.txt` following the [custom files](#cu
 It isn't required, but you should add the fileid into `/game/csgo/subscribed_file_ids.txt` following the [custom files](#custom-files) steps (`/custom_files/subscribed_file_ids.txt`) so the server keeps it up to date.
 
 If you have python available, you can use our tool available to add a map to your custom game mode map groups: `python scripts/add-map.py <group_name> <map_name> [workshop_id] --custom`. Refer to `scripts/add-map.py` for more information.
+
 ## Running on Google Cloud
 
 ### Create firewall rule
@@ -313,15 +317,15 @@ Ensure you have all the settings for your [environment variables](#environment-v
 
 - **If setting up internet server:**
 
-   Set environment variable `STEAM_ACCOUNT` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
+  Set environment variable `STEAM_ACCOUNT` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
 
-   Make sure you [port forward](https://portforward.com/router.htm) on your router TCP: `27015` and UDP: `27015` & `27020` so players can connect from the internet.
+  Make sure you [port forward](https://portforward.com/router.htm) on your router TCP: `27015` and UDP: `27015` & `27020` so players can connect from the internet.
 
-   **You must connect to the server from the public IP, not the LAN IP even if you are on the same network. The script logs the public IP `Starting server on XXX.XXX.XXX.XXX:27015`**
+  **You must connect to the server from the public IP, not the LAN IP even if you are on the same network. The script logs the public IP `Starting server on XXX.XXX.XXX.XXX:27015`**
 
 - **If setting up LAN server:**
 
-   Set environment variable `LAN` to `1`
+  Set environment variable `LAN` to `1`
 
 ```
 sudo su
@@ -352,10 +356,10 @@ Make sure Docker is installed and about 40 GB disk space is free.
 
 - **If setting up for internet server:**
 
-   Set 'STEAM_ACCOUNT' variable in '.env'-file in the root if the repository.
-   For workshop maps set 'API_KEY' in '.env'-file.
+  Set 'STEAM_ACCOUNT' variable in '.env'-file in the root if the repository.
+  For workshop maps set 'API_KEY' in '.env'-file.
 
-   Or provide via -e to the run command
+  Or provide via -e to the run command
 
 It is also recommended to have a cron to reboot the container once a day, this will allow for the server to auto-update when new CS versions are released
 
@@ -368,7 +372,7 @@ docker run
   -p '27020:27020/udp'
   -v '/SOME/DIR/STORES_MAIN_INSTALL/':'/home/steam/cs2/':'rw'
   -v '/SOME/DIR/STORES_CUSTOM_OVERRIDES':'/home/custom_files/':'rw'
-  'ghcr.io/kus/cs2-modded-server:latest' 
+  'ghcr.io/kus/cs2-modded-server:latest'
 ```
 
 Note: if you don't mount `/home/steam/cs2/` it will download the game every launch
@@ -380,11 +384,11 @@ You can either Download this repo and extract it to where you want your server (
 
 - **Build docker image:**
 
-   `docker build -t cs2-modded-server .`
+  `docker build -t cs2-modded-server .`
 
 - **Run the server**
 
-   `docker compose up`
+  `docker compose up`
 
 ## Running on Windows
 
@@ -400,25 +404,25 @@ To download maps from the workshop, your server [needs access](https://developer
 
 - **If setting up internet server:**
 
-   Open `\win.ini`
+  Open `\win.ini`
 
-   Set `IP` to your [public ip](http://checkip.amazonaws.com/)
+  Set `IP` to your [public ip](http://checkip.amazonaws.com/)
 
-   Set `STEAM_ACCOUNT` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
+  Set `STEAM_ACCOUNT` to your [Game Server Login Token](https://steamcommunity.com/dev/managegameservers)
 
-   Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
+  Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
 
-   Make sure you [port forward](https://portforward.com/router.htm) on your router TCP: `27015` and UDP: `27015` & `27020` so players can connect from the internet.
+  Make sure you [port forward](https://portforward.com/router.htm) on your router TCP: `27015` and UDP: `27015` & `27020` so players can connect from the internet.
 
-   **You must connect to the server from the public IP, not the LAN IP even if you are on the same network.**
+  **You must connect to the server from the public IP, not the LAN IP even if you are on the same network.**
 
 - **If setting up LAN server:**
 
-   Open `\win.ini`
+  Open `\win.ini`
 
-   Set `LAN` to `1`
+  Set `LAN` to `1`
 
-   Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
+  Set `API_KEY` to your [Steam Web API key](http://steamcommunity.com/dev/apikey) (required to play workshop maps)
 
 [Add admins](#acessing-admin-menu)
 
@@ -606,33 +610,33 @@ You can also change directly to a game mode with the Rcon commands via chat i.e.
 
 These are all the available chat commands to change the game mode:
 
-| Command                   | Game mode                                                                         |
-| ------------------------- | --------------------------------------------------------------------------------- |
-| `!rcon exec 1v1`          | 1v1 (allows more than 2 players)                                                  |
-| `!rcon exec aim`          | Aim                                                                               |
-| `!rcon exec ar`           | Arms Race (Valve)                                                                 |
-| `!rcon exec awp`          | Awp only                                                                          |
-| `!rcon exec battle`       | Battle Ball                                                                       |
-| `!rcon exec bhop`         | Bunny hop maps                                                                    |
-| `!rcon exec br`           | Battle Royale                                                                     |
+| Command                   | Game mode                                                                             |
+| ------------------------- | ------------------------------------------------------------------------------------- |
+| `!rcon exec 1v1`          | 1v1 (allows more than 2 players)                                                      |
+| `!rcon exec aim`          | Aim                                                                                   |
+| `!rcon exec ar`           | Arms Race (Valve)                                                                     |
+| `!rcon exec awp`          | Awp only                                                                              |
+| `!rcon exec battle`       | Battle Ball                                                                           |
+| `!rcon exec bhop`         | Bunny hop maps                                                                        |
+| `!rcon exec br`           | Battle Royale                                                                         |
 | `!rcon exec comp`         | Competitive using [MatchZy](https://github.com/shobhit-pathak/MatchZy#usage-commands) |
-| `!rcon exec course`       | Tests players with different traps, kz, surf, bhop                                |
-| `!rcon exec dm`           | Deathmatch                                                                        |
-| `!rcon exec dm-valve`     | Deathmatch (Valve)                                                                |
-| `!rcon exec executes`     | Executes                                                                          |
-| `!rcon exec gg`           | Gun Game                                                                          |
-| `!rcon exec hns`          | Hide n Seek                                                                       |
-| `!rcon exec kz`           | Kreedz Climbing                                                                   |
-| `!rcon exec minigames`    | Mini Games                                                                        |
-| `!rcon exec deathrun`     | Deathrun                                                                          |
-| `!rcon exec prac`         | Practice (grenade lineups etc)                                                    |
-| `!rcon exec prefire`      | Prefire practice                                                                  |
-| `!rcon exec retake`       | Retakes                                                                           |
-| `!rcon exec scoutzknivez` | ScoutzKnivez                                                                      |
-| `!rcon exec soccer`       | Soccer                                                                            |
-| `!rcon exec surf`         | Surf                                                                              |
-| `!rcon exec wingman`      | Wingman (allows more than 4 players)                                              |
-| `!rcon exec 45`           | Competitive with 45 degree maps                                                   |
+| `!rcon exec course`       | Tests players with different traps, kz, surf, bhop                                    |
+| `!rcon exec dm`           | Deathmatch                                                                            |
+| `!rcon exec dm-valve`     | Deathmatch (Valve)                                                                    |
+| `!rcon exec executes`     | Executes                                                                              |
+| `!rcon exec gg`           | Gun Game                                                                              |
+| `!rcon exec hns`          | Hide n Seek                                                                           |
+| `!rcon exec kz`           | Kreedz Climbing                                                                       |
+| `!rcon exec minigames`    | Mini Games                                                                            |
+| `!rcon exec deathrun`     | Deathrun                                                                              |
+| `!rcon exec prac`         | Practice (grenade lineups etc)                                                        |
+| `!rcon exec prefire`      | Prefire practice                                                                      |
+| `!rcon exec retake`       | Retakes                                                                               |
+| `!rcon exec scoutzknivez` | ScoutzKnivez                                                                          |
+| `!rcon exec soccer`       | Soccer                                                                                |
+| `!rcon exec surf`         | Surf                                                                                  |
+| `!rcon exec wingman`      | Wingman (allows more than 4 players)                                                  |
+| `!rcon exec 45`           | Competitive with 45 degree maps                                                       |
 
 Changing between gamemodes multiple times is not recommended, and it is better if you restart the CS2 server in-between.
 
@@ -728,7 +732,7 @@ The whitelist file is located at `/game/csgo/addons/counterstrikesharp/plugins/d
 
 `Failed to open libtier0.so (/home/steam/cs2/bin/libgcc_s.so.1: version 'GCC_7.0.0' not found (required by /lib/i386-linux-gnu/libstdc++.so.6))`
 
-This is because Valve ships their own copies of those libraries. As modern systems will have newer versions, you can safely delete the listed file from the server install. Do not delete the file in the system path (usually lib or lib32)[*](https://wiki.alliedmods.net/Installing_metamod:source).
+This is because Valve ships their own copies of those libraries. As modern systems will have newer versions, you can safely delete the listed file from the server install. Do not delete the file in the system path (usually lib or lib32)[\*](https://wiki.alliedmods.net/Installing_metamod:source).
 
 `cd /home/steam/cs2/bin/` and `rm libgcc_s.so.1` and restart the server.
 

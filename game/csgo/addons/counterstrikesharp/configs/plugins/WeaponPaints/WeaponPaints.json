@@ -1,0 +1,37 @@
+{
+  "Version": 4,
+  "DatabaseHost": "host.docker.internal",
+  "DatabasePort": 3306,
+  "DatabaseUser": "cs2",
+  "DatabasePassword": "123456",
+  "DatabaseName": "modernek",
+  "CmdRefreshCooldownSeconds": 1,
+  "Prefix": "[WeaponPaints]",
+  "Website": "example.com/skins",
+  "Messages": {
+    "WebsiteMessageCommand": "Visit {WEBSITE} where you can change skins.",
+    "SynchronizeMessageCommand": "Type !wp to synchronize chosen skins.",
+    "KnifeMessageCommand": "Type !knife to open knife menu.",
+    "CooldownRefreshCommand": "You cant refresh weapon paints right now.",
+    "SuccessRefreshCommand": "Refreshing weapon paints.",
+    "ChosenKnifeMenu": "You have chosen {KNIFE} as your knife.",
+    "ChosenSkinMenu": "You have chosen {SKIN} as your skin.",
+    "ChosenKnifeMenuKill": "To correctly apply skin for knife, you need to type !kill.",
+    "KnifeMenuTitle": "Knife Menu.",
+    "WeaponMenuTitle": "Weapon Menu.",
+    "SkinMenuTitle": "Select skin for {WEAPON}"
+  },
+  "Additional": {
+    "KnifeEnabled": true,
+    "SkinEnabled": true,
+    "CommandWpEnabled": true,
+    "CommandKillEnabled": true,
+    "CommandKnife": ["knife"],
+    "CommandSkin": ["ws"],
+    "CommandSkinSelection": ["skins"],
+    "CommandRefresh": ["wp"],
+    "CommandKill": ["kill"],
+    "GiveRandomKnife": false,
+    "GiveRandomSkins": false
+  }
+}
